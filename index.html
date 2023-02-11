@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Create Account</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="login">
+            <h1 class="formTitle">Create Account</h1>
+            <label class="formLabel">Nombre</label>
+            <input type="text" class="formInput" id="nombre">
+            <p id="errorNombre" class="error"></p>
+            <label class="formLabel">Email</label>
+            <input type="email" class="formInput" id="email">
+            <p id="errorEmail" class="error"></p>
+            <label class="formLabel">Clave</label>
+            <input type="password" class="formInput" id="clave" maxlength="8">
+            <p id="errorClave" class="error"></p>
+            <label class="formLabel">Confirme su clave</label>
+            <input type="password" class="formInput" id="confirmacionClave" maxlength="8">
+            <p id="errorConfirmacionClave" class="error"></p>
+            <input type="button" class="formSubmit" id="boton" value="ENVIAR">
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

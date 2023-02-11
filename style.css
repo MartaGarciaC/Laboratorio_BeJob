@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Merriweather', serif;
+    background-color: rgb(37,40,51);
+}
+
+.container {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    background-color: rgb(46,54,69);
+}
+
+.formTitle{
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 23px;
+    color: rgb(181,194,234);
+}
+
+.formLabel {
+    color: rgb(181,194,234,0.7);
+    padding-bottom: 7px;
+    font-size: 14px;
+}
+
+.formInput, .formLabel, .formSubmit {
+    display: block;
+    margin-left: 20px;
+}
+
+.formInput{
+    padding: 10px;
+    width: 445px;
+    border-radius: 5px;
+    border-color: rgba(255,255,255,0.3);
+    
+}
+
+.formError{
+    background: url(images/error-icon.svg) no-repeat scroll right;
+    background-size: 13px;
+    background-origin: content-box;
+    background-color: white;
+}
+
+.formOk{
+    background: url(images/success-icon.svg) no-repeat scroll right;
+    background-size: 13px;
+    background-origin: content-box;
+    background-color: white;
+    border-style: 5px solid;
+}
+
+.error {
+    margin-left: 20px;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.formSubmit {
+    padding: 10px;
+    width: 469px;
+    border-radius: 5px;
+    background-color: rgb(108,98,254);
+    color: white;
+    font-family: 'Merriweather', serif;
+}
